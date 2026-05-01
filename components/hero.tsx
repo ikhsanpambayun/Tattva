@@ -20,11 +20,11 @@ const Hero = () => {
           Undangan digital elegan yang dirancang dengan detail — menyampaikan
           cerita Anda secara sederhana dan berkelas.
         </p>
-        <div className="flex items-center gap-4 pt-8 md:gap-8 md:pt-36">
+        <div className="flex items-center gap-4 pt-8 md:gap-8 md:pt-36 md:pb-8">
           <Link href="/">
             <Button
               variant={"outline"}
-              className="md:h-11 md:px-8 md:text-base"
+              className="p-2 md:h-11 md:px-8 md:text-base"
             >
               <div className="flex items-center gap-2">
                 <BookOpen />
@@ -33,7 +33,7 @@ const Hero = () => {
             </Button>
           </Link>
           <Link href="/">
-            <Button className="md:h-11 md:px-8 md:text-base">
+            <Button className="p-2 md:h-11 md:px-8 md:text-base">
               <div className="flex items-center gap-2">
                 <ChatCircleDots />
                 <p className="text-base">Konsultasi Gratis</p>

@@ -48,7 +48,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 right-0 left-0 z-50 flex h-13 items-center justify-between border-b border-gray-200 bg-white/60 px-6 backdrop-blur-md">
       {/* Mobile Nav */}
-      <div className="flex w-full items-center justify-between md:hidden">
+      <div className="flex w-full max-w-svw items-center justify-between md:hidden">
         <Image
           src="/images/tattva.svg"
           width={97}
